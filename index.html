@@ -384,7 +384,7 @@
     }
 
     const addCount = (Counter) => {
-      const url = $(".leancloud-counter").length === 1 ? $(".leancloud-counter").attr('id').trim() : 'http://ahyun.org.cn';
+      const url = $(".leancloud-counter").length === 1 ? $(".leancloud-counter").attr('id').trim() : 'https://www.baidu.com';
       var query = new Counter;
       query.save({
         words: url
@@ -403,7 +403,7 @@
     }
 
     const addLike = (Like) => {
-      const url = $(".leancloud-like").length === 1 ? $(".leancloud-like").attr('id').trim() : 'http://ahyun.org.cn';
+      const url = $(".leancloud-like").length === 1 ? $(".leancloud-like").attr('id').trim() : 'https://www.baidu.com';
       var query = new Like;
       query.save({
         path: url,
