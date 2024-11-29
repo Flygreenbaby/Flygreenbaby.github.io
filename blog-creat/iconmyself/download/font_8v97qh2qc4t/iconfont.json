@@ -1,0 +1,149 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "34999295",
+      "name": "dice",
+      "font_class": "dice",
+      "unicode": "e507",
+      "unicode_decimal": 58631
+    },
+    {
+      "icon_id": "34999300",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e508",
+      "unicode_decimal": 58632
+    },
+    {
+      "icon_id": "34999311",
+      "name": "magnifying-glass",
+      "font_class": "magnifying-glass",
+      "unicode": "e50a",
+      "unicode_decimal": 58634
+    },
+    {
+      "icon_id": "34999314",
+      "name": "shapes",
+      "font_class": "shapes",
+      "unicode": "e50b",
+      "unicode_decimal": 58635
+    },
+    {
+      "icon_id": "34999317",
+      "name": "tags",
+      "font_class": "tags",
+      "unicode": "e50c",
+      "unicode_decimal": 58636
+    },
+    {
+      "icon_id": "34999318",
+      "name": "train",
+      "font_class": "train",
+      "unicode": "e50d",
+      "unicode_decimal": 58637
+    },
+    {
+      "icon_id": "35005759",
+      "name": "envelope",
+      "font_class": "envelope",
+      "unicode": "e50f",
+      "unicode_decimal": 58639
+    },
+    {
+      "icon_id": "35005760",
+      "name": "music",
+      "font_class": "music",
+      "unicode": "e510",
+      "unicode_decimal": 58640
+    },
+    {
+      "icon_id": "35005761",
+      "name": "fan",
+      "font_class": "fan",
+      "unicode": "e511",
+      "unicode_decimal": 58641
+    },
+    {
+      "icon_id": "35005763",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e512",
+      "unicode_decimal": 58642
+    },
+    {
+      "icon_id": "35005766",
+      "name": "lightbulb",
+      "font_class": "lightbulb",
+      "unicode": "e513",
+      "unicode_decimal": 58643
+    },
+    {
+      "icon_id": "35005767",
+      "name": "shoe-prints",
+      "font_class": "shoe-prints",
+      "unicode": "e514",
+      "unicode_decimal": 58644
+    },
+    {
+      "icon_id": "35005768",
+      "name": "images",
+      "font_class": "images",
+      "unicode": "e515",
+      "unicode_decimal": 58645
+    },
+    {
+      "icon_id": "35005770",
+      "name": "artstation",
+      "font_class": "artstation",
+      "unicode": "e516",
+      "unicode_decimal": 58646
+    },
+    {
+      "icon_id": "35006038",
+      "name": "paper-plane",
+      "font_class": "paper-plane",
+      "unicode": "e517",
+      "unicode_decimal": 58647
+    },
+    {
+      "icon_id": "35006420",
+      "name": "house-chimney",
+      "font_class": "house-chimney",
+      "unicode": "e518",
+      "unicode_decimal": 58648
+    },
+    {
+      "icon_id": "35006421",
+      "name": "grip-vertical",
+      "font_class": "grip-vertical",
+      "unicode": "e519",
+      "unicode_decimal": 58649
+    },
+    {
+      "icon_id": "35006529",
+      "name": "bars",
+      "font_class": "bars",
+      "unicode": "e51a",
+      "unicode_decimal": 58650
+    },
+    {
+      "icon_id": "35011951",
+      "name": "dice-d20",
+      "font_class": "dice-d20",
+      "unicode": "e52f",
+      "unicode_decimal": 58671
+    },
+    {
+      "icon_id": "35017949",
+      "name": "bilibili",
+      "font_class": "bilibili",
+      "unicode": "e546",
+      "unicode_decimal": 58694
+    }
+  ]
+}

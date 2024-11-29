@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1732431326565') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dice:before {
+  content: "\e507";
+}
+
+.icon-book:before {
+  content: "\e508";
+}
+
+.icon-magnifying-glass:before {
+  content: "\e50a";
+}
+
+.icon-shapes:before {
+  content: "\e50b";
+}
+
+.icon-tags:before {
+  content: "\e50c";
+}
+
+.icon-train:before {
+  content: "\e50d";
+}
+
+.icon-envelope:before {
+  content: "\e50f";
+}
+
+.icon-music:before {
+  content: "\e510";
+}
+
+.icon-fan:before {
+  content: "\e511";
+}
+
+.icon-link:before {
+  content: "\e512";
+}
+
+.icon-lightbulb:before {
+  content: "\e513";
+}
+
+.icon-shoe-prints:before {
+  content: "\e514";
+}
+
+.icon-images:before {
+  content: "\e515";
+}
+
+.icon-artstation:before {
+  content: "\e516";
+}
+
+.icon-paper-plane:before {
+  content: "\e517";
+}
+
+.icon-house-chimney:before {
+  content: "\e518";
+}
+
+.icon-grip-vertical:before {
+  content: "\e519";
+}
+
+.icon-bars:before {
+  content: "\e51a";
+}
+
+.icon-dice-d20:before {
+  content: "\e52f";
+}
+
+.icon-bilibili:before {
+  content: "\e546";
+}
+
