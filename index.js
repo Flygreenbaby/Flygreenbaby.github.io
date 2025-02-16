@@ -1,10 +1,7 @@
-// 主逻辑
-async function loadArticle(filename) {
-  const response = await fetch(`articles/${filename}`);
-  const markdown = await response.text();
-  const htmlContent = marked(markdown);
-  document.getElementById('content').innerHTML = htmlContent;
-}
+const open = document.getElementById('open')
+const close = document.getElementById('close')
+const container = document.querySelector('.container')
 
-// 默认加载 example.md
-loadArticle('example.md');
+open.addEventListener('click', () => container.classList.add('show-nav'))
+
+close.addEventListener('click', () => container.classList.remove('show-nav'))

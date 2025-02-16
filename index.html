@@ -1,67 +1,77 @@
 <!-- 首页 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/Flygreenbaby/Images@main/img/202502161609500.ico">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./iconmyself/download/font_8v97qh2qc4t/iconfont.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/Flygreenbaby/Images@main/img/202502161609500.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./iconmyself/download/font_8v97qh2qc4t/iconfont.css">
+  <link rel="stylesheet" href="./iconmyself/download/font_f2itnh2p61q/iconfont.css">
 </head>
+
 <body>
-  <!-- <header>
-    <nav style="
-      display: flex;
+  <div class="container">
 
-    ">
-        <a href="index.html">首页</a>
-        <a href="#">文章</a>
-        <a href="#">关于</a>
-    </nav>
-    <nav style="
-      display: flex;
-      
-    ">
-        <a href="#">登录</a>
-        <a href="#">注册</a>
-    </nav>  
-  </header> -->
+    <!-- 添加导航栏，由github上的旋转导航启发 -->
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="iconfont icon-guifandaohanglancha"></i>
+        </button>
+        <button id="open">
+          <i class="iconfont icon-bars"></i>
+        </button>
+      </div>
+    </div>
 
-  <div style="
-    text-align: center;
-    padding: 40px;
-  ">
-    <img src="https://cdn.jsdelivr.net/gh/Flygreenbaby/Images@main/img/202306202055962.jpeg" alt="ahyun" 
-    style="
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;">
-    <h1>ahyun</h1>
-  </div>
+    <div style="
+        text-align: center;
+        padding: 40px;
+        ">
+      <img src="https://cdn.jsdelivr.net/gh/Flygreenbaby/Images@main/img/202306202055962.jpeg" alt="ahyun" style="
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          ">
+      <h1>ahyun</h1>
+    </div>
 
-  <div style="
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 15px;
-    line-height: 1.7;
-  ">
-    <p>图片太大了</p>
-    <p>我好像没办法让这几行字展现出来</p>
-    <p>试一下看看</p>
-    <p>不是居中</p>
-    <p>再试试</p>
-    <p>蒜鸟蒜鸟，下次再调</p>
+    <div style="
+        max-width: 700px;
+        margin: 30px auto;
+        padding: 15px;
+        line-height: 1.7;
+        ">
+      <p>图片太大了</p>
+      <p>我好像没办法让这几行字展现出来</p>
+      <p>试一下看看</p>
+      <p>不是居中</p>
+      <p>再试试</p>
+      <p>蒜鸟蒜鸟，下次再调</p>
+    </div>
   </div>
-  <div style="
-    text-align: center;
-    font-size: 12px;
-    padding: 40px;
-  ">
-    <p>我的网站</p>
-    <a href="https://github.com/Flygreenbaby/Flygreenbaby.github.io/blob/main/README.md">友情链接</a>
-    <a href="./articles/expanding-car/car-video.html">汽车视频欣赏</a>
-    <a href="./articles/ahyun-love/ahyun-love.html">可以成为我的恋人吗？</a>
-  </div>
+  <footer style="
+        background-color: #fafafa;
+        text-align: center;
+        font-size: 12px;
+        padding: 40px;">
+    <a href="https://icp.gov.moe/?keyword=20250406" target="_blank">萌ICP备20250406号</a>
+    <p>© 2025 ahyun</p>
+  </footer>
+
+  <nav>
+    <ul>
+      <li><a href="https://github.com/Flygreenbaby/Flygreenbaby.github.io/blob/main/README.md">友情链接</a></li>
+      <li><a href="./articles/expanding-car/car-video.html">汽车视频欣赏</a></li>
+      <li><a href="./articles/ahyun-love/ahyun-love.html">可以成为我的恋人吗？</a></li>
+    </ul>
+  </nav>
+
+  <script src="./index.js"></script>
 </body>
+
 </html>
