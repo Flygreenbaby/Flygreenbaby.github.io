@@ -1,4 +1,8 @@
 /* 首页样式 */
+@media (max-width: 768px) {
+  /* 移动端样式 */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -115,4 +119,28 @@ nav a {
 nav a:hover {
   color: #ff7979;
   font-weight: bold;
+}
+
+.qrcode-container {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.qrcode-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#qrcode {
+  display: inline-block;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#qrcode img {
+  display: block;
 }
