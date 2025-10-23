@@ -1,0 +1,23 @@
+name: Deploy Blog
+
+on:
+  push:
+    branches:
+      - main  # 当 main 分支有 push 时触发
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.BLOG_SSH_KEY }}
+
+    - name: Deploy to Server
+      run: |
+        ssh root@8.216.91.159 'cd /var/www/blog && git pull origin main'
