@@ -1,23 +1,28 @@
-name: Deploy Blog
+name: Deploy to Server
 
 on:
   push:
     branches:
-      - main  # 当 main 分支有 push 时触发
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Setup SSH
+    - name: Set up SSH
       uses: webfactory/ssh-agent@v0.9.0
       with:
         ssh-private-key: ${{ secrets.BLOG_SSH_KEY }}
 
-    - name: Deploy to Server
+    - name: Deploy via SSH
       run: |
-        ssh root@8.216.91.159 'cd /var/www/blog && git pull origin main'
+        # 添加服务器指纹到 known_hosts
+        ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+        # 拉取最新仓库
+        ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "\
+          cd /var/www/blog && git reset --hard && git pull origin main \
+        "
